@@ -13,6 +13,7 @@
   <code>obj_sign.roomMessage = "Hitting a checkpoint sets a#new respawn point if you die!"</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
+  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
     <w>1169</w>

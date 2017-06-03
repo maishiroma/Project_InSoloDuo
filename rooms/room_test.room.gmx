@@ -14,6 +14,7 @@
 //audio_play_music(sd_BGMW2,true);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
+  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
     <w>1171</w>
@@ -142,7 +143,6 @@
     <instance objName="obj_switchWall" x="1472" y="288" name="inst_7920B73B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_switchWall" x="1472" y="320" name="inst_2B389BE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_switchWall" x="1472" y="352" name="inst_CF18147A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="864" y="224" name="inst_F9C4007D" locked="0" code="" scaleX="1.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_stars" x="896" y="96" name="inst_153D8257" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stars" x="1312" y="288" name="inst_0801FB5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy3" x="1088" y="160" name="inst_4341E977" locked="0" code="canMoveH = true;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

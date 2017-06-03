@@ -35,7 +35,7 @@ ticker = 500;
 calculatedScore = false;
 continueGame = false;
 
-audio_play_music(sd_clearStageBGM,true);
+audio_play_sound(obj_BGM.clearLevel_BGM,10, true);
 
 GUI.visible = false;
 GUI.inSpecial = true;
@@ -154,7 +154,7 @@ if(continueGame == true){
     SuperClass_Player.clearedLevel = false;
     SuperClass_Player.cantSkip = false;
     GUI.firstRoomInLevel = nextRoom;
-    audio_stop_music();
+    audio_stop_all()
     room_goto(nextRoom);
     //Reset timer on GUI and stars
     GUI.starsCollected = 0;

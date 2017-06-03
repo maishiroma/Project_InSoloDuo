@@ -13,6 +13,7 @@
   <code></code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
+  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
     <w>1284</w>
@@ -54,7 +55,7 @@
     <instance objName="obj_door" x="1088" y="256" name="inst_9863CDEA" locked="-1" code="nextX = 96;&#xA;nextY = 228;&#xA;nextRoom = room_W1Lv1P3;" scaleX="1" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="128" y="352" name="inst_04B4AA44" locked="-1" code="roomMessage = &quot;Male can't jump high,#but Female can!&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="320" y="160" name="inst_A955D1DF" locked="-1" code="roomMessage = &quot;Press 'down arrow' on the gray platform#to drop through!&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sign" x="1024" y="32" name="inst_9D7673C6" locked="-1" code="roomMessage = &quot;Hitting flags acts as a restart point if you fail!&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sign" x="1024" y="32" name="inst_9D7673C6" locked="-1" code="roomMessage = &quot;Hitting flags acts as a#restart point if you fail!&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="672" y="416" name="inst_F0B969AB" locked="0" code="roomMessage = &quot;For every 5 stars you get#gets you an extra life!&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="1248" y="128" name="inst_B678A13C" locked="0" code="roomMessage = &quot;A and S are Gender Actions!#Try them out as different genders!&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_invisibleWall" x="-32" y="64" name="inst_8AC4E573" locked="-1" code="" scaleX="1.93548381328583" scaleY="27" colour="4294967295" rotation="0"/>

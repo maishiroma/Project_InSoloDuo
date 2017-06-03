@@ -25,9 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-audio_play_music(sd_gameOverBGM,true);
-SuperClass_Player.clearedLevel = true;
+            <string>audio_stop_all();
+audio_play_sound(obj_BGM.gameOver_BGM,10,true);
 
 with(SuperClass_Player){
     instance_destroy();
@@ -123,7 +122,7 @@ draw_text(x,y+100,"Hit 'Enter' to try again.");
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_stop_music();
+            <string>audio_stop_all();
 game_restart();
 </string>
           </argument>

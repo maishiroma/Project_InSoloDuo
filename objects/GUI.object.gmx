@@ -307,7 +307,7 @@ draw_text(view_xview+435,view_yview+580, " = " + string(livesRemaining));
             <string>///Pause Feature
 if(inSpecial == false &amp;&amp; pause == false &amp;&amp; canPause == true ){
     pause = true;
-    audio_pause_music();
+    
     audio_pause_all();
     audio_play_sound(sd_pause,5,false);
     instance_deactivate_all(true);
@@ -318,9 +318,8 @@ else{
     with(obj_pause){
         instance_destroy();
     }
-    audio_resume_music();
-    audio_resume_all();
     instance_activate_all();
+    audio_resume_all();
 }
 </string>
           </argument>

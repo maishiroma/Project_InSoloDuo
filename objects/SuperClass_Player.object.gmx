@@ -133,7 +133,6 @@ sMoveDuration = 20; //Length of move
           <argument>
             <kind>1</kind>
             <string>///Starts death animation
-audio_pause_all();
 dyingAnimate = true;
 audio_play_sound(sd_loseLife,3,false);
 instance_create(view_xview + 240,view_yview + 330,obj_died);
@@ -165,8 +164,8 @@ with(obj_died){
     instance_destroy();
 }
 room_restart();
-audio_resume_music();
 instance_activate_all();
+audio_play_sound(obj_BGM.current_BGM,10,true);
 script_execute(scr_resetPlayerValues,self,true);
 </string>
           </argument>

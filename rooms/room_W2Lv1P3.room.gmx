@@ -13,6 +13,7 @@
   <code>//audio_play_music(sd_BGMW2,true);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
+  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
     <w>1284</w>

@@ -10,9 +10,10 @@
   <persistent>0</persistent>
   <colour>255</colour>
   <showcolour>-1</showcolour>
-  <code>audio_play_music(sd_volcano2,true);</code>
+  <code></code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
+  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
     <w>1284</w>
@@ -171,6 +172,7 @@
     <instance objName="obj_topGround" x="672" y="224" name="inst_0B0DA2D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_topGround" x="704" y="224" name="inst_15C32BE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GUI" x="0" y="0" name="inst_8BE224EF" locked="0" code="firstRoomInLevel = room_W1Lv1P1;&#xA;defaultX = 32;&#xA;defautY = 192;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_BGM" x="32" y="0" name="inst_07088655" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -86,7 +86,6 @@ if(ticker &lt; 0){
             <string>///Reset the game
 if(completed == true){
     audio_stop_all();
-    audio_stop_music();
     game_restart();
 }
 </string>

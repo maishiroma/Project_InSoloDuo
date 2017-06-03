@@ -10,10 +10,10 @@
   <persistent>-1</persistent>
   <colour>12615680</colour>
   <showcolour>-1</showcolour>
-  <code>audio_play_music(sd_volcano2,true);
-obj_sign.roomMessage = "Welcome to the test area!#Experiment!";</code>
+  <code>obj_sign.roomMessage = "Welcome to the test area!#Experiment!";</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
+  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
     <w>927</w>
